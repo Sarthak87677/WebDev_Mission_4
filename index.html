@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Pole | Portfolio</title>
+    <meta name="description" content="Portfolio of Sarthak Pole, a passionate student and developer building modern web applications.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SP.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Sarthak Pole.</h1>
+                <h2 class="title">Student & Web Developer.</h2>
+                <p class="summary">Passionate developer who loves building modern web applications and learning new technologies. Based in Nanded, India.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#" class="btn btn-secondary"><i class='bx bx-download'></i> Resume</a>
+                </div>
+            </div>
+            <div class="hero-graphics">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a student currently pursuing my B.Tech in Computer Science at XYZ University. I have been working as a Freelance Web Developer since 2024, building responsive websites and full-stack applications for clients.</p>
+                    <ul class="info-list">
+                        <li><strong>Email:</strong> sarthakpolepole@gmail.com</li>
+                        <li><strong>Phone:</strong> +91 8767740903</li>
+                        <li><strong>Location:</strong> Nanded, India</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-tag">HTML5</div>
+                <div class="skill-tag">CSS3</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">MongoDB</div>
+                <div class="skill-tag">Git & GitHub</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects Showcase</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>DevConnect</h3>
+                        <p>Social platform for developers to connect, share ideas, and collaborate on projects.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="https://github.com/example/devconnect" target="_blank" class="project-link"><i class='bx bxl-github'></i> View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI Portfolio Builder</h3>
+                        <p>AI-powered portfolio website generator that creates stunning customized sites in seconds.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <a href="https://github.com/example/ai-portfolio" target="_blank" class="project-link"><i class='bx bxl-github'></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/johndoe" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://linkedin.com/in/johndoe" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/johndoe" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sarthak Pole. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="module" src="bg.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
